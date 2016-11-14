@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.bancogrudand">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teste2.usuario.ListarSemestrePorUsuario"/>
+        <activity android:name=".teste2.usuario.addSemestreParaUsuario"/>
+        <activity android:name=".teste2.usuario.ListarCursoPorUsuario"/>
+        <activity android:name=".teste2.usuario.addCursoParaSemestrePorUsuario"/>
+        <activity android:name=".teste2.usuario.ListarDisciplinaPorUsuario"/>
+        <activity android:name=".teste2.usuario.addDisciplinaParaCursoPorSemestrePorUsuario"/>
+        <activity android:name=".teste2.usuario.VerNota"/>
+        <activity android:name=".teste2.usuario.novoEditarNota"/>
+
+    </application>
+
+</manifest>

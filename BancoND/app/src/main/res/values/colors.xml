@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="corDaAplicacao">#8aa4d0ff</color>
+    <!--a4d0ff-->
+    <color name="corDosBotoes">#99f0a0</color>
+</resources>
